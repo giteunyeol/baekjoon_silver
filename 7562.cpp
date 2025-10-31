@@ -30,7 +30,7 @@ int main(void)
         cin >> n >> start_x >> start_y >> arrive_x >> arrive_y;
         //시작좌표와 도착 좌표가 같은경우. 0출력 후 다음 테스트케이스로 넘어감.
         //엣지케이스
-        if(start_x == arrive_x && start_x == arrive_y)
+        if(start_x == arrive_x && start_y == arrive_y)
         {
             cout << '0' << '\n';
             continue;
